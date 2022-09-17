@@ -5,7 +5,12 @@ class enlacespaginas{
         if($enlacesmodel == "registrarse" || $enlacesmodel == "ingresar" || $enlacesmodel == "nosotros" || $enlacesmodel == "soporte"){
             $module = "modulos/". $enlacesmodel.".php";
          }
+         elseif ($enlacesmodel == "index"){
+            $module = "modulos/inicio.php"; 
+         }
+         
          return $module;
+            
     }
 }
 ?>
