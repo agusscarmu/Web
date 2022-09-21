@@ -1,3 +1,6 @@
+<?php
+function showTemplate(){
+?>    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +14,7 @@
     Logotipo
 </header>
 <?php
-include "modulos/nav.php";
+include "nav";
 ?>
 <section>
 <?php
@@ -21,3 +24,4 @@ $ctrl -> enlacespaginas();
 </section>
 </body>
 </html>
+<?php } ?>

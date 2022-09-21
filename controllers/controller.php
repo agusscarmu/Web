@@ -2,7 +2,7 @@
 
 class controller{
     public function plantilla(){
-        include "views/template.php";
+        include "template";
     }
 
     public function enlacespaginas(){
@@ -23,3 +23,4 @@ class controller{
 }
 
 ?>
+
